@@ -1,11 +1,11 @@
 <template>
   <v-container>
-    <v-row class="text-center">
-    </v-row>
+      <under-construction></under-construction>
   </v-container>
 </template>
 
 <script>
+  import underConstruction from "@/components/underConstruction.vue"
   export default {
     name: 'blog',
 
@@ -17,5 +17,9 @@
       whatsNext: [
       ],
     }),
+
+    components: {
+        'under-construction': underConstruction
+    }
   }
 </script>
