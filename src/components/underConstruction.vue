@@ -2,12 +2,12 @@
   <v-container>
     <v-row>
         <v-col class="col-xs-12 col-md-6">
-            <span class="text-h2">Under Construction!</span>
-            <p class="body-1 mt-4 text-justify">Please check back later!</p>
+            <span class="text-h2 text-left">Under Construction!</span>
+            <p class="body-1 mt-4 text-left">Please check back later!</p>
         </v-col>
         <v-col class="col-xs-12 col-md-6">
             <img src="../assets/fish_working.jpg"
-                 width="640"
+                 :width="$vuetify.breakpoint.width > 640 ? 640 : $vuetify.breakpoint.width"
                  contain>
         </v-col>
     </v-row>
