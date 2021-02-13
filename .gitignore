@@ -26,3 +26,6 @@ pnpm-debug.log*
 *.jpg
 *.png
 *.svg
+
+#videos
+*.mp4
