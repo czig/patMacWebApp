@@ -13,10 +13,10 @@
         </v-toolbar-title>
         <v-spacer></v-spacer>
 
-        <v-btn text to="/" router>Home</v-btn> 
-        <v-btn text to="/about" router>About</v-btn> 
-        <v-btn text to="/blog" router>Blog</v-btn> 
-        <v-btn text to="/gallery" router>Gallery</v-btn> 
+        <v-btn text to="/" router v-if="!$vuetify.breakpoint.xsOnly">Home</v-btn> 
+        <v-btn text to="/about" router v-if="!$vuetify.breakpoint.xsOnly">About</v-btn> 
+        <v-btn text to="/blog" router v-if="!$vuetify.breakpoint.xsOnly">Blog</v-btn> 
+        <v-btn text to="/gallery" router v-if="!$vuetify.breakpoint.xsOnly">Gallery</v-btn> 
 
     </v-app-bar>
 
