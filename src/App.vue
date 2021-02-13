@@ -24,7 +24,7 @@
                          absolute
                          temporary>
         <v-list nav dense>
-            <v-list-item-group v-model="group">
+            <v-list-item-group>
                 <v-list-item to="/">
                     <v-list-item-title>Home</v-list-item-title>
                 </v-list-item>
