@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "deploy": "aws --profile caleb s3 sync ./dist s3://patmacscopperworks.com --delete"
   },
   "dependencies": {
     "core-js": "^3.6.5",
