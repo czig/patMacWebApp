@@ -175,6 +175,14 @@
             src: require('../assets/working_maple.jpg'),
             width: 1080,
           },
+          {
+            src: require('../assets/garden_art.jpg'),
+            width: 1080,
+          },
+          {
+            src: require('../assets/butterfly2.jpg'),
+            width: 1080,
+          },
       ],
     }),
     methods: {
