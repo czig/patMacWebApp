@@ -8,7 +8,7 @@
         <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>
             <router-link to="/" tag="span" style="cursor: pointer">
-                Pat Mac Copper Works
+                Pat Mac's Copper Works
             </router-link>
         </v-toolbar-title>
         <v-spacer></v-spacer>
@@ -57,5 +57,12 @@ export default {
   data: () => ({
     drawer: false, 
   }),
+  metaInfo() {
+      return {
+          meta: [
+              {name: 'description', content: "Pat Mac's Copper Works is a website devoted to Pat Mac's copper art! If you like copper art, this is the place for you!"},
+          ]
+      }
+  }
 };
 </script>
