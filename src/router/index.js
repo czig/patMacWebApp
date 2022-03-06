@@ -5,6 +5,7 @@ import home from '@/components/home'
 import about from '@/components/about'
 import gallery from '@/components/gallery'
 import blog from '@/components/blog'
+import contact from '@/components/contact'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
     path: '/blog',
     name: 'blog',
     component: blog,
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: contact,
   },
 ]
 

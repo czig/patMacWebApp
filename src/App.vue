@@ -17,6 +17,7 @@
         <v-btn text to="/about" router v-if="!$vuetify.breakpoint.xsOnly">About</v-btn> 
         <v-btn text to="/blog" router v-if="!$vuetify.breakpoint.xsOnly">Blog</v-btn> 
         <v-btn text to="/gallery" router v-if="!$vuetify.breakpoint.xsOnly">Gallery</v-btn> 
+        <v-btn text to="/contact" router v-if="!$vuetify.breakpoint.xsOnly">Contact Us</v-btn> 
 
     </v-app-bar>
 
@@ -36,6 +37,9 @@
                 </v-list-item>
                 <v-list-item to="/gallery">
                     <v-list-item-title>Gallery</v-list-item-title>
+                </v-list-item>
+                <v-list-item to="/contact">
+                    <v-list-item-title>Contact Us</v-list-item-title>
                 </v-list-item>
             </v-list-item-group>
         </v-list>
