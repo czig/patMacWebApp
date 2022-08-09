@@ -22,7 +22,7 @@
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer"
-                         absolute
+                         fixed
                          temporary>
         <v-list nav dense>
             <v-list-item-group>
