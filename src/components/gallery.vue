@@ -32,7 +32,7 @@
         <v-col v-for="(image,i) in images"
                :key="i"
                class="d-flex child-flex"
-               cols="4"
+               :cols="$vuetify.breakpoint.name == 'xs' ? 12 : 4"
                >
                <v-hover v-slot="{ hover }">
                    <v-card :class="`elevation-${hover ? 12 : 2}`"
@@ -232,3 +232,15 @@
     },
   }
 </script>
+
+<style>
+.hyphen-text {
+    display: block;
+    overflow: hidden;
+    word-break: break-all;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+</style>
