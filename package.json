@@ -9,16 +9,17 @@
     "deploy": "aws --profile caleb s3 sync ./dist s3://patmacscopperworks.com --delete"
   },
   "dependencies": {
+    "@vue/composition-api": "^1.7.0",
     "core-js": "^3.6.5",
+    "pinia": "^2.0.18",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuetify": "^2.2.11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-unit-mocha": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
+    "@vue/cli-service": "^5.0.8",
     "@vue/test-utils": "^1.0.3",
     "chai": "^4.1.2",
     "sass": "^1.19.0",
