@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vue/composition-api": "^1.7.0",
+    "axios": "^0.27.2",
     "core-js": "^3.6.5",
     "pinia": "^2.0.18",
     "vue": "^2.6.11",
@@ -17,6 +18,7 @@
     "vuetify": "^2.2.11"
   },
   "devDependencies": {
+    "@mdi/font": "^7.0.96",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "^5.0.8",
