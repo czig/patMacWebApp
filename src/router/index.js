@@ -6,6 +6,8 @@ import about from '@/components/about'
 import gallery from '@/components/gallery'
 import blog from '@/components/blog'
 import contact from '@/components/contact'
+import logIn from '@/components/logIn'
+import account from '@/components/account'
 
 Vue.use(VueRouter)
 
@@ -34,6 +36,16 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: contact,
+  },
+  {
+    path: '/logIn',
+    name: 'logIn',
+    component: logIn,
+  },
+  {
+    path: '/account',
+    name: 'account',
+    component: account,
   },
 ]
 

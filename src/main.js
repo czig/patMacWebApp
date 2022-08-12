@@ -13,7 +13,7 @@ Vue.use(PiniaVuePlugin)
 const pinia = createPinia()
 
 //set axios defaults
-axios.defaults.baseURL = 'http://localhost:5005'
+axios.defaults.baseURL = 'http://localhost:5005/api'
 axios.defaults.headers.common['Authorization'] = localStorage.getItem('token');
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
