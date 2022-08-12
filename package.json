@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "deploy": "aws --profile caleb s3 sync ./dist s3://patmacscopperworks.com --delete"
+    "deploy": "aws --profile caleb s3 sync ./dist s3://patmacscopperworks.com --exclude '*img*' --exclude '*.gz' --delete"
   },
   "dependencies": {
     "@vue/composition-api": "^1.7.0",
