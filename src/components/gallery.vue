@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-dialog v-model="dialog"
-              :max-width="dialogImage.width">
+              :max-width="$vuetify.breakpoint.name == 'xs' ? $vuetify.breakpoint.width : $vuetify.breakpoint.width*0.4">
         <v-card>
             <v-btn fab
                    dark
