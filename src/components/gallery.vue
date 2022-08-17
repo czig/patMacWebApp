@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-dialog v-model="dialog"
-              :max-width="dialogImage.width">
+              :max-width="$vuetify.breakpoint.name == 'xs' ? $vuetify.breakpoint.width : $vuetify.breakpoint.width*0.4">
         <v-card>
             <v-btn fab
                    dark
@@ -221,6 +221,37 @@
             src: require('../assets/sunflower.jpeg'),
             width: 640,
             title: "Sunflower"
+          },
+        //new start
+          {
+            src: require('../assets/seven_flower.jpg'),
+            width: 640,
+            title: "Seven Flower"
+          },
+          {
+            src: require('../assets/dragonfly.jpg'),
+            width: 640,
+            title: "Dragonfly"
+          },
+          {
+            src: require('../assets/dragonfly_grass.jpg'),
+            width: 640,
+            title: "Dragonfly in the Lawn"
+          },
+          {
+            src: require('../assets/fish_curved.jpg'),
+            width: 640,
+            title: "Fish"
+          },
+          {
+            src: require('../assets/fish_patrick.jpg'),
+            width: 640,
+            title: "Me holding the fish"
+          },
+          {
+            src: require('../assets/two_fish.jpg'),
+            width: 640,
+            title: "Two fish"
           },
       ],
     }),
