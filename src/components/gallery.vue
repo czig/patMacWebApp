@@ -253,6 +253,62 @@
             width: 640,
             title: "Two fish"
           },
+          // second round new
+          {
+            src: require('../assets/ornaments_star_maple.jpg'),
+            width: 1080,
+            title: "Holiday ornaments!"
+          },
+          {
+            src: require('../assets/star_brazed.jpg'),
+            width: 1080,
+            title: "Brazed holiday star"
+          },
+          {
+            src: require('../assets/star_working.jpg'),
+            width: 640,
+            title: "Working on the brazed holiday star"
+          },
+          {
+            src: require('../assets/dogwood_spray2.jpg'),
+            width: 640,
+            title: "Dogwood spray"
+          },
+          {
+            src: require('../assets/landscape_art_circles.jpg'),
+            width: 640,
+            title: "Landscape/garden art"
+          },
+          {
+            src: require('../assets/sunflower_butterfly.jpg'),
+            width: 640,
+            title: "Sunflowers and a butterfly"
+          },
+          {
+            src: require('../assets/trout1.jpg'),
+            width: 640,
+            title: "Me with a completed trout"
+          },
+          {
+            src: require('../assets/trout2.jpg'),
+            width: 640,
+            title: "A completed trout"
+          },
+          {
+            src: require('../assets/trout3.jpg'),
+            width: 640,
+            title: "A completed trout"
+          },
+          {
+            src: require('../assets/turtle.jpg'),
+            width: 1080,
+            title: "Turtles!"
+          },
+          {
+            src: require('../assets/turtle2.jpg'),
+            width: 1080,
+            title: "Turtles!"
+          },
       ],
     }),
     methods: {
