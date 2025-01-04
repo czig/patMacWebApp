@@ -309,6 +309,21 @@
             width: 1080,
             title: "Turtles!"
           },
+          {
+            src: require('../assets/sun.jpg'),
+            width: 640,
+            title: "Sun (16in point-to-point)"
+          },
+          {
+            src: require('../assets/butterfly.jpg'),
+            width: 640,
+            title: "Textured Butterfly"
+          },
+          {
+            src: require('../assets/moose.jpg'),
+            width: 1080,
+            title: "Moose"
+          },
       ],
     }),
     methods: {
